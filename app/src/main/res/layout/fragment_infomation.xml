@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/informationGameFragment"
+android:orientation="vertical"
+tools:context=".Infomation">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_info"
+    android:text="Nhóm phát triển:"
+    android:textStyle="bold"
+    android:textColor="@color/design_default_color_error"
+    android:layout_marginStart="20sp"
+    android:layout_marginTop="100sp"
+    android:textSize="30sp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20sp"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:text=" • Ngô Doãn Hoàng" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:layout_marginStart="20sp"
+    android:text=" • Phí Đức Thắng" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20sp"
+    android:layout_marginStart="20sp"
+    android:textColor="@color/black"
+    android:text="Liên hệ:" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginStart="20sp"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:text=" • 20021584@vnu.edu.vn" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginStart="20sp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:text=" • 20021532@vnu.edu.vn" />
+
+</LinearLayout>

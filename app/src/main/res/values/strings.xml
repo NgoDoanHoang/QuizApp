@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">quizz_v1</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sets">Moi ban chon cap do</string>
+
+    <string name="justAString">BẠN MUỐN TRẢ LỜI CÂU HỎI LĨNH VỰC NÀO? </string>
+    <string name="maths">TOÁN HỌC</string>
+    <string name="physics">VẬT LÍ</string>
+    <string name="english">ANH</string>
+    <string name="TODO">TODO</string>
+    <string name="gopy">GÓP Ý</string>
+    <string name="thongtin">THÔNG TIN TRÒ CHƠI</string>
+    <string name="choi">PLAY</string>
+    <string name="bank">all QUESTs</string>
+    <string name="HISTORY">HISTORY</string>
+    <string name="easy">DỄ</string>
+    <string name="medium">TRUNG BÌNH</string>
+    <string name="hard">KHÓ</string>
+    <string name="level">CHỌN CẤP ĐỘ BẠN MUỐN CHƠI</string>
+    <string name="numberofques">SỐ CÂU HỎI</string>
+    <string name="done">HOÀN THÀNH</string>
+    <string name="share">CHIA SẺ</string>
+</resources>

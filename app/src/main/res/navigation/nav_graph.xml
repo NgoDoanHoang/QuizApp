@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screen_1">
+
+
+    <fragment
+    android:id="@+id/screen_1"
+    android:name="com.example.quizz_v1.screen_01"
+     android:label="fragment_screen_01"
+     tools:layout="@layout/fragment_screen_01">
+    <action
+    android:id="@+id/action_screen1_to_screen2"
+    app:destination="@id/screen_2"/>
+        <action
+            android:id="@+id/action_screen_1_to_screen_lichsu"
+            app:destination="@id/screen_lichsu" />
+    </fragment>
+
+    <fragment
+     android:id="@+id/screen_2"
+     android:name="com.example.quizz_v1.screen_02"
+     android:label="fragment_screen_02"
+     tools:layout="@layout/fragment_screen_02">
+   <action
+       android:id="@+id/action_screen2_to_screen3"
+      app:destination="@id/screen_3"/>
+    </fragment>
+
+<fragment
+android:id="@+id/screen_3"
+android:name="com.example.quizz_v1.screen_03"
+android:label="fragment_screen_03"
+tools:layout="@layout/fragment_screen_03">
+<action
+    android:id="@+id/action_screen3_to_screen4"
+    app:destination="@id/screen_4"/>
+</fragment>
+
+<fragment
+android:id="@+id/screen_4"
+android:name="com.example.quizz_v1.screen_04"
+android:label="fragment_screen_04"
+tools:layout="@layout/fragment_screen_04">
+<action
+    android:id="@+id/action_screen_4_to_screen_1"
+    app:destination="@id/screen_1" />
+</fragment>
+    <fragment
+        android:id="@+id/screen_info"
+        android:name="com.example.quizz_v1.Infomation"
+        android:label="fragment_infomation"
+        tools:layout="@layout/fragment_infomation">
+    </fragment>
+    <fragment
+        android:id="@+id/screen_lichsu"
+        android:name="com.example.quizz_v1.Lichsu"
+        android:label="fragment_screen_lichsu"
+        tools:layout="@layout/fragment_lichsu">
+    </fragment>
+
+</navigation>
